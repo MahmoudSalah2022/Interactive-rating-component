@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+button{
+    border: none;
+}
+
+.page {
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.maincont {
+    padding: 35px;
+    max-width: 375px;
+    background-image: linear-gradient(hsl(213, 19%, 15%), hsl(213, 19%, 12%));
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.fristcont {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+
+}
+
+.star {
+    width: 50px;
+    height: 50px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content h1 {
+    color: white;
+    padding-bottom: 10px;
+}
+
+.content p {
+    color: hsl(216, 12%, 54%);
+
+}
+
+.ratenumbercontainer{
+    width: auto;
+}
+
+.ratenumber{
+    width: 357px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.number {
+    color: hsl(216, 12%, 54%);
+    width: 50px;
+    height: 50px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.number:hover {
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+
+}
+
+.number:focus {
+    color: white;
+    background-color: hsl(217, 12%, 63%);
+
+}
+
+
+.submit {
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
+.submit:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+}
+
+.secondcont {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.finalRN {
+    border-radius: 25px;
+    padding: 10px;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(25, 97%, 53%);
+}
+
+.secondcont .content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.hiddensection {
+    display: none !important;
+}
+
+.attribution {
+    color: hsl(0, 0%, 100%);
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.attribution a {
+    color: hsl(0, 0%, 100%);
+}
