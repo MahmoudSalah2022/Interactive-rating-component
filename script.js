@@ -1,3 +1,12 @@
+const btns = document.querySelectorAll('#number');
+const ratenumber = document.getElementById('ratenumber');
+
+btns.forEach((btn) => {
+    btn.addEventListener("click", () => {
+        ratenumber.innerHTML = btn.innerHTML;
+    })
+})
+
 function nextcard() {
     let submit = document.querySelector('.submit');
     const fristcont = document.querySelector('.fristcont');
